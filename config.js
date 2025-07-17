@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "IK~lS1WDJpS#4_txbDommc5xDs_xUEE_I4wlqWmZor43gLCkPwEycGM",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -19,7 +19,7 @@ ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete     
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'same' if you want to resend deleted message in same chat     
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
